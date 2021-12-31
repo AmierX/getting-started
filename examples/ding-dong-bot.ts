@@ -46,6 +46,20 @@ async function onMessage (msg: Message) {
   if (msg.text() === 'ding') {
     await msg.say('dong')
   }
+  if (msg.text() === '肛宝') {
+    await msg.say(' Hi，你好'+
+      +'我是本群的“提肛提醒小助手”'+
+      +'我叫肛宝'+
+      +'肛宝希望'+
+      +'你能多提肛'+
+      +'他提醒你'+
+      +'不要忘记提肛'+
+      +'说：我会提的'+
+      +'千万不要忘记'+
+      +'那我走咯'+
+      +''+
+      +'[本消息是来自肛宝的提醒]')
+  }
 }
 
 const bot = WechatyBuilder.build({
